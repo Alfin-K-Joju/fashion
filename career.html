@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers - AI Fashion Modeling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main">
+        <nav>
+            <div class="container">
+                <h1 class="logo">Vancouver</h1>
+                <div class="hamburger" id="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about us.html">About US</a></li>
+                    <li><a href="./service.html">Services</a></li>
+                    <li><a href="./career.html">career</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    
+        <script src="script.js"></script>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="careers-hero">
+        <div class="careers-hero-content">
+            <h1>Careers at AI Fashion Modeling</h1>
+            <p>Join our team and be part of the future of fashion technology. We’re looking for passionate individuals to help us innovate and excel in the fashion industry.</p>
+        </div>
+    </section>
+
+    <!-- Current Openings -->
+    <section class="job-openings">
+        <div class="container">
+            <h2>Current Openings</h2>
+            <div class="job-list">
+                <div class="job-item">
+                    <h3>AI Fashion Designer</h3>
+                    <p>We are seeking a talented AI Fashion Designer to create cutting-edge virtual fashion models and digital collections.</p>
+                    <a href="apply.html?job=ai-fashion-designer" class="apply-button">Apply Now</a>
+                </div>
+                <div class="job-item">
+                    <h3>Virtual Runway Coordinator</h3>
+                    <p>Join our team as a Virtual Runway Coordinator and help manage and execute digital runway shows.</p>
+                    <a href="apply.html?job=virtual-runway-coordinator" class="apply-button">Apply Now</a>
+                </div>
+                <div class="job-item">
+                    <h3>3D Garment Visualization Specialist</h3>
+                    <p>We’re looking for a 3D Garment Visualization Specialist to work on high-quality digital representations of fashion collections.</p>
+                    <a href="apply.html?job=3d-garment-visualization-specialist" class="apply-button">Apply Now</a>
+                </div>
+                <div class="job-item">
+                    <h3>Sustainability Analyst</h3>
+                    <p>Help us advance our sustainability initiatives as a Sustainability Analyst, focusing on AI-driven eco-friendly practices.</p>
+                    <a href="apply.html?job=sustainability-analyst" class="apply-button">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Work With Us -->
+    <section class="why-work-with-us">
+        <div class="container">
+            <h2>Why Work With Us?</h2>
+            <p>At AI Fashion Modeling, we offer a dynamic work environment where creativity and technology intersect. Our team is dedicated to pushing the boundaries of fashion technology and making a significant impact in the industry. Here’s why you should consider joining us:</p>
+            <ul>
+                <li>Innovative and collaborative work culture</li>
+                <li>Opportunities for professional growth and development</li>
+                <li>Work with cutting-edge AI technology in fashion</li>
+                <li>Competitive compensation and benefits</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section class="application-form">
+        <div class="container">
+            <h2>Apply for a Position</h2>
+            <form action="submit-application.php" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <label for="resume">Resume</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+                </div>
+                <div class="form-group">
+                    <label for="cover-letter">Cover Letter</label>
+                    <textarea id="cover-letter" name="cover_letter" placeholder="Why do you want to work with us?" rows="5" required></textarea>
+                </div>
+                <button type="submit">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>VANCOUVER</h3>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="./about us.html">About Us</a></li>
+                    <li><a href="./service.html">Services</a></li>
+                    <li><a href="./career.html">Careers</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="https://facebook.com" target="_blank" class="social-icon"><img src="./svg/facebook.svg" alt="Facebook"></a>
+                <a href="https://twitter.com" target="_blank" class="social-icon"><img src="./svg/twitter-x.svg" alt="Twitter"></a>
+                <a href="https://instagram.com" target="_blank" class="social-icon"><img src="./svg/instagram.svg" alt="Instagram"></a>
+                <a href="https://linkedin.com" target="_blank" class="social-icon"><img src="./svg/linkedin.svg" alt="LinkedIn"></a>
+            </div>
+            <div class="footer-newsletter">
+                <form action="newsletter-signup.php" method="post">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
